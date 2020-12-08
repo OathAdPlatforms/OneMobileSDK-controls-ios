@@ -2,7 +2,7 @@ fastlane_version '2.83.0'
 actions_path '../PlayerControls/build_scripts/cocoapods/'
 
 before_all do |lane, options|
-  xcversion(version: '~> 10')
+  xcversion(version: '~> 11.6')
 end
 
 default_platform :ios
